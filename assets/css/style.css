@@ -2,6 +2,9 @@ body{
     padding: 0;
     position: relative;
 }
+img{
+    width: 100%;
+}
 nav img{
     height: 40px;
     width: 40px;
@@ -19,7 +22,7 @@ nav a:hover{
 }
 #hero img{
     height: calc(100vh - 66px);
-    width: 100%;
+
     object-fit: cover;
 }
 #hero h5{
