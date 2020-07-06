@@ -1,9 +1,7 @@
 body{
-    height: 500vh;
     padding: 0;
     position: relative;
 }
-
 nav img{
     height: 40px;
     width: 40px;
@@ -29,9 +27,6 @@ nav a:hover{
     border-radius: 50px;
     margin-bottom: 20px;
 }
-
-
-
 .row:first-child{
     padding: 15vh 10% 5vh;
 }
@@ -40,16 +35,13 @@ nav a:hover{
     font-size: 1.4rem;
     line-height: 2.5rem;
 }
-
 #more-info{
     width: 90%;
 }
-
 .card img{
     height: 55%;
     object-fit: cover;
 }
-
 footer{
     padding: 5vh 0 0;
 }
