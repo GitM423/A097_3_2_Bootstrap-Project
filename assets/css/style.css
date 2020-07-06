@@ -1,0 +1,55 @@
+body{
+    height: 500vh;
+    padding: 0;
+    position: relative;
+}
+
+nav img{
+    height: 40px;
+    width: 40px;
+}
+nav a{
+    transition: opacity 1s;
+}
+nav a:hover{
+    opacity: 50%;
+}
+#hero{
+    height: calc(100vh - 66px);
+    margin: 0;
+    padding: 0;
+}
+#hero img{
+    height: calc(100vh - 66px);
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-caption{
+    background: #00000055;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+.row:first-child{
+    padding: 15vh 10% 5vh;
+}
+.row:first-child p{
+    padding: 50px 0;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+
+#more-info{
+    width: 90%;
+}
+
+.card img{
+    height: 55%;
+    object-fit: cover;
+}
+
+footer{
+    padding: 5vh 0 0;
+}
